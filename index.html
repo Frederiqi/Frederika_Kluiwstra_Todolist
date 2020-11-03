@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Todo list</title>
+    <meta name="description" content="Oefenen met API">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="api-client.js" type="text/javascript"></script>
+    <script defer src="script.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <header>
+        <h2>Create a todo-list</h2>
+    </header>
+    <main>
+        <div class="containerTodolist">
+            <form id="taskForm">
+                <p>Think of a new task:</p>
+                <input name="task" type="text" id="newTaskInputField" placeholder="Add a new task to the list" />
+                <button id="newTaskButton" type="submit">Add to list</button>
+                <ul id="tasksTodo"></ul>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
